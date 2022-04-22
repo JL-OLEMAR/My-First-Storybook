@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
-    "server:dev": "build-storybook && http-server --port 3001 storybook-static",
+    "server:dev": "http-server --port 3001 storybook-static",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
