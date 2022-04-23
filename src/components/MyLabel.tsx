@@ -31,7 +31,7 @@ export const MyLabel = ({
   size = 'normal', // Default props for this story
   allCaps = false,
   color = 'primary',
-  backgroundColor
+  backgroundColor = 'transparent'
 }: MyLabelProps) => {
   return (
     <span
