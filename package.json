@@ -19,6 +19,13 @@
     "dist",
     "src"
   ],
+  "keywords": [
+    "react",
+    "storybook",
+    "chromatic",
+    "typescript",
+    "vite"
+  ],
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "rimraf dist/ && tsc && npm run copy-css-to-dist",
