@@ -51,5 +51,5 @@ exports.Tertiary.args = {
     label: 'My Label Custom Tertiary',
     color: 'tertiary',
     size: 'h3',
-    backgroundColor: '#ff0000'
+    backgroundColor: '#000000'
 };
