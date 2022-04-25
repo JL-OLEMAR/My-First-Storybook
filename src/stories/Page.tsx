@@ -72,4 +72,4 @@ export const Page: React.VFC = () => {
   );
 };
 
-export default Page;
+
