@@ -1,6 +1,28 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { viteCommonjs, esbuildCommonjs } from '@originjs/vite-plugin-commonjs'
 
 export default defineConfig({
-  plugins: [react()]
+  plugins: [
+    viteCommonjs(),
+    react({
+      babel: {
+        parserOpts: {
+          plugins: [
+            'optionalChaining',
+            'nullishCoalescingOperator',
+            'logicalAssignment',
+          ],
+        },
+      },
+    }),
+  ],
+ 
+  optimizeDeps: {
+    esbuildOptions: {
+      plugins: [
+        esbuildCommonjs(['tiny-slider', 'tiny-slider-react']),
+      ],
+    },
+  },
 })
