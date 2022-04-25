@@ -1,23 +1,9 @@
 # My First StoryBook
 
-## First Install App with [React](https://vitejs.dev/)
+This package is for practicing React Components + Storybook + NPM Publish.
 
 ```
-npm create vite my-storybook -- --template react-ts
+npm run jlo-my-storybook-component
 ```
 
-## Install StoryBook
-
-```
-npx sb init
-```
-
-## Run StoryBook
-
-```
-npm run start
-```
-**or**
-```
-npm run storybook
-```
+## [Demo](https://JL-OLEMAR.github.io/My-First-Storybook/)
